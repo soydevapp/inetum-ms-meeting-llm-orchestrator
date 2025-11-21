@@ -1,0 +1,19 @@
+{
+  "title": "Reunión Comité Arquitectura",
+  "date": "2025-11-21T10:00:00Z",
+  "participants": ["Daniel", "María", "Javier"],
+  "segments": [
+    {
+      "speaker": "Daniel",
+      "start": 0,
+      "end": 10,
+      "text": "Buenos días, revisamos el estado de los canales digitales y la migración de los microfrontales."
+    },
+    {
+      "speaker": "María",
+      "start": 10,
+      "end": 25,
+      "text": "Tenemos pendiente decidir cómo integrar los nuevos servicios con LiteLLM y Ollama."
+    }
+  ]
+}

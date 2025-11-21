@@ -1,0 +1,85 @@
+# =============================
+# Entornos virtuales
+# =============================
+venv/
+.venv/
+env/
+
+# =============================
+# Python cache
+# =============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =============================
+# Configuración / secretos
+# =============================
+.env
+.env.local
+*.log
+
+# =============================
+# Archivos locales de macOS
+# =============================
+.DS_Store
+
+# =============================
+# Audio / Datos generados runtime
+# (Carpeta donde guardamos los audios subidos)
+# =============================
+data/audio/
+data/tmp/
+data/cache/
+
+# No queremos borrar toda la carpeta data (por si guardas plantillas),
+# pero sí lo que se genera automáticamente.
+# Si quieres ignorar toda la carpeta:
+# data/
+
+# =============================
+# Cachés de LiteLLM / Ollama
+# =============================
+litellm_cache/
+ollama_models/
+ollama_cache/
+
+# =============================
+# Modelos descargados (Whisper, HF, Pyannote, Torch)
+# =============================
+~/.cache/huggingface/
+.cache/huggingface/
+~/.cache/torch/
+.cache/torch/
+
+# Whisper model weights
+whisper_cache/
+whisper_models/
+
+# Pyannote models
+pyannote_cache/
+
+# =============================
+# Editor / IDE
+# =============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================
+# Docker
+# =============================
+*.pid
+*.seed
+*.pid.lock
+
+# No subir imágenes generadas localmente
+docker/*.log
+docker/*.pid
+
+app/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
