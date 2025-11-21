@@ -114,9 +114,15 @@ Payload
 
 # Arranque del proyecto
 
-Es necestario tener levantado LiteLLM en http://localhost:8000
-Es necesario tener levantado el filtro en http://localhost:9000
+- Es necestario tener levantado LiteLLM en http://localhost:8000
+- Es necesario tener levantado el filtro en http://localhost:9000
 
 ```bash
 PYTHONPATH=src uvicorn app.main:app --reload --host 0.0.0.0 --port 9002
+```
+
+# Cada vez que instalamos o quitamos dependencias
+
+```bash
+pip freeze > requirements.txt
 ```
